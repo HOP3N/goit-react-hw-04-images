@@ -14,13 +14,6 @@ const App = () => {
   const [items, setItems] = useState([]);
   const [status, setStatus] = useState('idle');
   const [totalHits, setTotalHits] = useState(0);
-  // state = {
-  //   inputData: '',
-  //   items: [],
-
-  //   status: 'idle',
-  //   totalHits: 0,
-  // };
 
   const handleSubmit = async inputData => {
     page = 1;
